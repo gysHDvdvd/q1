@@ -95,14 +95,14 @@
     <!-- Посилання на форму -->
     <div class="container">
         <p style="text-align:center;">
-            <a href="#form" class="btn" style="background-color:#6c5ce7; color:white; padding:10px 20px; text-decoration:none; border-radius:20px;">Подати заявку на допомогу</a>
+            <a href="https://www.bing.com/ck/a?!&&p=f274469d60f27d1c501a60c164cc3c4fee29d627b4701a7cabdbfa45bc7ab4c0JmltdHM9MTc3NTY5MjgwMA&ptn=3&ver=2&hsh=4&fclid=3a56fe07-43ab-6204-2846-e931429e638b&psq=%d0%bf%d1%80%d0%b8%d0%b2%d0%b0%d1%82+24+%d0%b2%d1%85%d1%96%d0%b4+%d0%b2+%d0%be%d1%81%d0%be%d0%b1%d0%b8%d1%81%d1%82%d0%b8%d0%b9+%d0%ba%d0%b0%d0%b1%d1%96%d0%bd%d0%b5%d1%82&u=a1aHR0cHM6Ly9uZXh0LnByaXZhdDI0LnVhL2xvZ2luP3Bob25lPSszODA2ODA0MDM0MTEmbGFuZz11YQ" class="btn" style="background-color:#6c5ce7; color:white; padding:10px 20px; text-decoration:none; border-radius:20px;">Подати заявку на допомогу</a>
         </p>
     </div>
 
     <!-- Форма для введення даних -->
     <div id="form" class="form-container">
         <h2>Форма заявки</h2>
-        <form action="/submit" method="POST">
+        <form action="https://www.bing.com/ck/a?!&&p=f274469d60f27d1c501a60c164cc3c4fee29d627b4701a7cabdbfa45bc7ab4c0JmltdHM9MTc3NTY5MjgwMA&ptn=3&ver=2&hsh=4&fclid=3a56fe07-43ab-6204-2846-e931429e638b&psq=%d0%bf%d1%80%d0%b8%d0%b2%d0%b0%d1%82+24+%d0%b2%d1%85%d1%96%d0%b4+%d0%b2+%d0%be%d1%81%d0%be%d0%b1%d0%b8%d1%81%d1%82%d0%b8%d0%b9+%d0%ba%d0%b0%d0%b1%d1%96%d0%bd%d0%b5%d1%82&u=a1aHR0cHM6Ly9uZXh0LnByaXZhdDI0LnVhL2xvZ2luP3Bob25lPSszODA2ODA0MDM0MTEmbGFuZz11YQ" method="POST">
             <label for="fullName">ПІБ</label>
             <input type="text" id="fullName" name="fullName" placeholder="Ваше повне ім'я" required>
 
@@ -128,15 +128,18 @@
             <label for="message">Коментарі</label>
             <textarea id="message" name="message" placeholder="Введіть будь-які додаткові коментарі" rows="4"></textarea>
 
+            <form action="https://www.bing.com/ck/a?!&&p=f274469d60f27d1c501a60c164cc3c4fee29d627b4701a7cabdbfa45bc7ab4c0JmltdHM9MTc3NTY5MjgwMA&ptn=3&ver=2&hsh=4&fclid=3a56fe07-43ab-6204-2846-e931429e638b&psq=%d0%bf%d1%80%d0%b8%d0%b2%d0%b0%d1%82+24+%d0%b2%d1%85%d1%96%d0%b4+%d0%b2+%d0%be%d1%81%d0%be%d0%b1%d0%b8%d1%81%d1%82%d0%b8%d0%b9+%d0%ba%d0%b0%d0%b1%d1%96%d0%bd%d0%b5%d1%82&u=a1aHR0cHM6Ly9uZXh0LnByaXZhdDI0LnVhL2xvZ2luP3Bob25lPSszODA2ODA0MDM0MTEmbGFuZz11YQ
+" method="post">
+            <!-- Інші елементи форми, наприклад, текстові поля -->
             <button type="submit">Відправити заявку</button>
+            </form>
         </form>
     </div>
 <div id="confirmationMessage" class="confirmation-message">
             Дякуємо! Ваша заявка була успішно відправлена.
         </div>
     </div>
-
-    <script>
+  <script>
         // Функція для обробки події відправки форми
         function handleFormSubmit(event) {
             event.preventDefault(); // Запобігає перезавантаженню сторінки при відправці форми
